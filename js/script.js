@@ -74,6 +74,26 @@ $(document).on("keypress.n", function(n) {
 
 $(document).on("keypress.m", function(m) {
 });
+$(document).on("keypress.1", function(one) {
+});
+$(document).on("keypress.2", function(two) {
+});
+$(document).on("keypress.3", function(three) {
+});
+$(document).on("keypress.4", function(four) {
+});
+$(document).on("keypress.5", function(five) {
+});
+$(document).on("keypress.6", function(six) {
+});
+$(document).on("keypress.7", function(seven) {
+});
+$(document).on("keypress.8", function(eight) {
+});
+$(document).on("keypress.9", function(nine) {
+});
+$(document).on("keypress.0", function(zero) {
+});
 
 
 
@@ -204,7 +224,48 @@ $(document).on('keydown', function(l) {
         playSound('assets/glitch-sound-effect-hd-379466.mp3');
     }
 });
-
+$(document).on('keydown', function(z) {
+    var key = (z.key);
+    if (key === 'z') {
+        playSound('assets/ground-impact-352053.mp3');
+    }
+});
+$(document).on('keydown', function(x) {
+    var key = (x.key);
+    if (key === 'x') {
+        playSound('assets/magic-03-278824.mp3');
+    }
+});
+$(document).on('keydown', function(c) {
+    var key = (c.key);
+    if (key === 'c') {
+        playSound('assets/new-notification-3-398649.mp3');
+    }
+});
+$(document).on('keydown', function(v) {
+    var key = (v.key);
+    if (key === 'v') {
+        playSound('assets/new-notification-09-352705.mp3');
+    }
+});
+$(document).on('keydown', function(b) {
+    var key = (b.key);
+    if (key === 'b') {
+        playSound('assets/pop-402323.mp3');
+    }
+});
+$(document).on('keydown', function(n) {
+    var key = (n.key);
+    if (key === 'n') {
+        playSound('assets/punch-03-352040.mp3');
+    }
+});
+$(document).on('keydown', function(m) {
+    var key = (m.key);
+    if (key === 'm') {
+        playSound('assets/punch-04-383965.mp3');
+    }
+});
 
 
 
