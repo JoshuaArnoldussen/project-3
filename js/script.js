@@ -266,6 +266,66 @@ $(document).on('keydown', function(m) {
         playSound('assets/punch-04-383965.mp3');
     }
 });
+$(document).on('keydown', function(one) {
+    var key = (one.key);
+    if (key === '1') {
+        playSound('assets/sharp-pop-328170.mp3');
+    }
+});
+$(document).on('keydown', function(two) {
+    var key = (two.key);
+    if (key === '2') {
+        playSound('assets/short-digital-notification-alert-440353.mp3');
+    }
+});
+$(document).on('keydown', function(three) {
+    var key = (three.key);
+    if (key === '3') {
+        playSound('assets/simple-whoosh-382724.mp3');
+    } 
+});
+$(document).on('keydown', function(four) {
+    var key = (four.key);
+    if (key === '4') {
+        playSound('assets/stab-f-01-brvhrtz-224599.mp3');
+    }
+});
+$(document).on('keydown', function(five) {
+    var key = (five.key);
+    if (key === '5') {
+        playSound('assets/sus-meme-sound-181271.mp3');
+    }
+});
+$(document).on('keydown', function(six) {
+    var key = (six.key);
+    if (key === '6') {
+        playSound('assets/swish-swoosh-woosh-sfx-27-357164.mp3');
+    }
+});
+$(document).on('keydown', function(seven) {
+    var key = (seven.key);
+    if (key === '7') {
+        playSound('assets/swoosh-015-383769.mp3');
+    }
+});
+$(document).on('keydown', function(eight) {
+    var key = (eight.key);
+    if (key === '8') {
+        playSound('assets/sword-slice-393847.mp3');
+    }
+});
+$(document).on('keydown', function(nine) {
+    var key = (nine.key);
+    if (key === '9') {
+        playSound('assets/vinyl-stop-sound-effect-241388.mp3');
+    }
+});
+$(document).on('keydown', function(zero) {
+    var key = (zero.key);
+    if (key === '0') {
+        playSound('assets/water-splash-02-352021.mp3');
+    }
+});
 
 
 
