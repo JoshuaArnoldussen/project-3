@@ -150,6 +150,61 @@ $(document).on('keydown', function(p) {
         playSound('assets/cinematic-impact-hit-352702.mp3');
     }
 });
+$(document).on('keydown', function(a) {
+    var key = (a.key);
+    if (key === 'a') {
+        playSound('assets/cinematic-riser-03-414575.mp3');
+    }
+});
+$(document).on('keydown', function(s) {
+    var key = (s.key);
+    if (key === 's') {
+        playSound('assets/clock-ticking-down-376897.mp3');
+    }
+});
+$(document).on('keydown', function(d) {
+    var key = (d.key);
+    if (key === 'd') {
+        playSound('assets/close-door-382723.mp3');
+    }
+});
+$(document).on('keydown', function(f) {
+    var key = (f.key);
+    if (key === 'f') {
+        playSound('assets/computer-mouse-click-352734.mp3');
+    }
+});
+$(document).on('keydown', function(g) {
+    var key = (g.key);
+    if (key === 'g') {
+        playSound('assets/digital-glitch-sfx-438248.mp3');
+    }
+});
+$(document).on('keydown', function(h) {
+    var key = (h.key);
+    if (key === 'h') {
+        playSound('assets/efek-suara-funny-putri-lucu-180275.mp3');
+    }
+});
+$(document).on('keydown', function(j) {
+    var key = (j.key);
+    if (key === 'j') {
+        playSound('assets/error-126627.mp3');
+    }
+});
+$(document).on('keydown', function(k) {
+    var key = (k.key);
+    if (key === 'k') {
+        playSound('assets/glitch-sfx-312910.mp3');
+    }
+});
+$(document).on('keydown', function(l) {
+    var key = (l.key);
+    if (key === 'l') {
+        playSound('assets/glitch-sound-effect-hd-379466.mp3');
+    }
+});
+
 
 
 
