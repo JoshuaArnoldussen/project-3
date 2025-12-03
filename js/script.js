@@ -1,0 +1,165 @@
+// keypress event listener
+$(document).on("keypress.q", function(q) {
+});
+
+$(document).on("keypress.w", function(w) {
+});
+
+$(document).on("keypress.e", function(e) {
+});
+
+$(document).on("keypress.r", function(r) {
+});
+
+$(document).on("keypress.t", function(t) {
+});
+
+$(document).on("keypress.y", function(y) {
+});
+
+$(document).on("keypress.u", function(u) {
+});
+
+$(document).on("keypress.i", function(i) {
+});
+
+$(document).on("keypress.o", function(o) {
+});
+
+$(document).on("keypress.p", function(p) {
+});
+$(document).on("keypress.a", function(a) {
+});
+
+$(document).on("keypress.s", function(s) {
+});
+
+$(document).on("keypress.d", function(d) {
+});
+
+$(document).on("keypress.f", function(f) {
+});
+
+$(document).on("keypress.g", function(g) {
+});
+
+$(document).on("keypress.h", function(h) {
+});
+
+$(document).on("keypress.j", function(j) {
+});
+
+$(document).on("keypress.k", function(k) {
+});
+
+$(document).on("keypress.l", function(l) {
+});
+$(document).on("keypress.z", function(z) {
+});
+
+$(document).on("keypress.x", function(x) {
+});
+
+$(document).on("keypress.c", function(c) {
+});
+
+$(document).on("keypress.v", function(v) {
+});
+
+$(document).on("keypress.b", function(b) {
+});
+
+$(document).on("keypress.n", function(n) {
+});
+
+$(document).on("keypress.m", function(m) {
+});
+
+
+
+// funtion code to play sound
+$(document).on('keydown', function(e) {
+    var key = (e.key);
+    if (key === 'q') {
+        playSound('assets/bubble-pop-06-351337.mp3');
+    }
+});
+$(document).on('keydown', function(w) {
+    var key = (w.key);
+    if (key === 'w') {
+        playSound('assets/buzzer-or-wrong-answer-20582.mp3');
+    }
+});
+$(document).on('keydown', function(e) {
+    var key = (e.key);
+    if (key === 'e') {
+        playSound('assets/camera-13695.mp3');
+    }
+});
+$(document).on('keydown', function(r) {
+    var key = (r.key);
+    if (key === 'r') {
+        playSound('assets/camera-flash-204151.mp3');
+    }
+});
+$(document).on('keydown', function(t) {
+    var key = (t.key);
+    if (key === 't') {
+        playSound('assets/car-crash-sound-effect-376874.mp3');
+    }
+});
+$(document).on('keydown', function(y) {
+    var key = (y.key);
+    if (key === 'y') {
+        playSound('\assets/car-engine-372477.mp3');
+    }
+});
+$(document).on('keydown', function(y) {
+    var key = (y.key);
+    if (key === 'y') {
+        playSound('assets/car-engine-372477.mp3');
+    }
+});
+$(document).on('keydown', function(u) {
+    var key = (u.key);
+    if (key === 'u') {
+        playSound('assets/car-pass-by-337871.mp3');
+    }
+});
+$(document).on('keydown', function(i) {
+    var key = (i.key);
+    if (key === 'i') {
+        playSound('assets/cash-register-kaching-sound-effect-125042.mp3');
+    }
+});
+$(document).on('keydown', function(i) {
+    var key = (i.key);
+    if (key === 'i') {
+        playSound('assets/cash-register-kaching-sound-effect-125042.mp3');
+    }
+});
+$(document).on('keydown', function(o) {
+    var key = (o.key);
+    if (key === 'o') {
+        playSound('assets/censor-beep-1-372459.mp3');
+    }
+});
+$(document).on('keydown', function(p) {
+    var key = (p.key);
+    if (key === 'p') {
+        playSound('assets/cinematic-impact-hit-352702.mp3');
+    }
+});
+
+
+
+
+// helper to play audio and surface errors to the console
+function playSound(src) {
+    if (!src) return;
+    var audio = new Audio(src);
+    audio.play().catch(function(err){
+        console.warn('Audio play failed:', err);
+    });
+    return audio;
+}
