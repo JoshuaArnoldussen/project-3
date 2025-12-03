@@ -25,13 +25,26 @@ h2 {
 
 h3 {
     font-family: "helvetica", sans-serif;
-    font-size: 10px;
+    font-size: 30px;
     width: 100%;
     margin: 0;
     padding: 20px 0;
-    color: rgb(93, 0, 232);
+    color: rgb(0, 0, 0);
     padding: 20px 0;
     text-align: center;
     box-sizing: border-box;
     font-weight: 20;
+}
+
+.h3-box {
+    display: inline-block;        /* or use block for full-width box */
+    max-width: 90%;
+    padding: 10px 16px;
+    margin: 10px auto;
+    background: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.12);
+    color: #040404;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
