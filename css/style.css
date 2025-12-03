@@ -1,0 +1,37 @@
+h1 {
+    font-family: "helvetica", sans-serif;
+    font-size: 50px;
+    width: 100%;
+    top : 100px;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "helvetica", sans-serif;
+    font-size: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: "helvetica", sans-serif;
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(93, 0, 232);
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 20;
+}
